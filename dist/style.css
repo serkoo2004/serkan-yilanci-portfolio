@@ -19,3 +19,7 @@
 .social-links{display:flex;align-items:center;gap:5px}.social-links a{display:grid;place-items:center;width:40px;height:40px;border:1px solid var(--line);border-radius:50%;transition:border-color .2s,transform .2s}.social-links img{filter:invert(1);opacity:.8}.social-links a:hover{border-color:var(--accent);transform:translateY(-2px)}footer>a[href^="https://github"]{margin-left:auto}@media(max-width:700px){footer{gap:13px}.social-links a{width:36px;height:36px}}
 
 footer .social-links{margin-left:auto}
+
+footer .github-footer{display:inline-flex;align-items:center;gap:14px;border:1px solid #3a4a58;border-radius:6px;padding:10px 17px;color:var(--text);font-size:14px;margin-left:auto}footer .github-footer:hover{border-color:var(--accent);color:var(--accent)}footer .social-links{margin-left:0}@media(max-width:700px){footer .github-footer{padding:8px 13px;font-size:13px}}
+
+footer .email-footer{display:inline-flex;align-items:center;gap:14px;border:1px solid #3a4a58;border-radius:6px;padding:10px 17px;color:var(--text);font-size:14px;margin-left:auto}footer .email-footer:hover{border-color:var(--accent);color:var(--accent)}footer .github-footer{margin-left:0}@media(max-width:700px){footer .email-footer{padding:8px 13px;font-size:13px;margin-left:0}footer .social-links{margin-left:auto}}
