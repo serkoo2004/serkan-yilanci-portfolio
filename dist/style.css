@@ -17,3 +17,5 @@
 @media(max-width:700px){.tech-groups{grid-template-columns:1fr}.tech-group{padding:24px}.tech-group:nth-child(odd){border-right:0}.tech-group:not(:last-child){border-bottom:1px solid var(--line)}.tech-list{gap:17px 12px}.tech-item{font-size:13px;gap:9px}.tech-icon{width:39px;height:39px;border-radius:8px}.tech-icon img{width:25px;height:25px}.concept-list{gap:8px}.concept-list>span{font-size:13px;padding:8px 10px}.hero-profession{font-size:24px}}
 
 .social-links{display:flex;align-items:center;gap:5px}.social-links a{display:grid;place-items:center;width:40px;height:40px;border:1px solid var(--line);border-radius:50%;transition:border-color .2s,transform .2s}.social-links img{filter:invert(1);opacity:.8}.social-links a:hover{border-color:var(--accent);transform:translateY(-2px)}footer>a[href^="https://github"]{margin-left:auto}@media(max-width:700px){footer{gap:13px}.social-links a{width:36px;height:36px}}
+
+footer .social-links{margin-left:auto}
